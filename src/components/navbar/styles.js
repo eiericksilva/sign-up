@@ -13,6 +13,9 @@ export const Container = styled.nav`
 export const ContainerLogo = styled.div`
   justify-content: center;
   align-items: center;
+
+  svg {
+  }
 `;
 
 export const ContainerButton = styled.div`

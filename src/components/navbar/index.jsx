@@ -83,7 +83,7 @@ const Navbar = () => {
         </svg>
       </ContainerLogo>
       <ContainerButton>
-        <a>Home</a>
+        <a href="#">Home</a>
         <button>ENTRAR</button>
         <button>CADASTRAR</button>
       </ContainerButton>
