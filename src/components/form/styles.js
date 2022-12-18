@@ -37,24 +37,6 @@ export const Wrapper = styled.section`
 export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
-
-  input {
-    line-height: 2;
-    height: 35px;
-    outline: none;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #3b3450;
-    padding: 0px 0.2rem;
-    margin: 0.5rem 0px;
-    transition: border-color 0.15s ease 0s;
-    font-size: 16px;
-    color: #ffffff;
-
-    &::placeholder {
-      color: #ffffff;
-    }
-  }
 `;
 export const Button = styled.button`
   width: 100%;

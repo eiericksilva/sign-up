@@ -3,6 +3,12 @@ import { Divider } from "../main/styles";
 import { Button, FormContainer } from "./styles";
 import { Wrapper } from "./styles";
 
+import { FaUserAlt } from "react-icons/fa";
+import { MdEmail, MdPhone } from "react-icons/md";
+import { RiLockFill } from "react-icons/ri";
+
+import TextBox from "../text-box";
+
 const Form = () => {
   return (
     <Wrapper>
@@ -10,10 +16,18 @@ const Form = () => {
       <h1>Comece agora grátis</h1>
       <p>Crie sua conta e make the change._</p>
       <FormContainer>
-        <input type="string" placeholder="Nome Completo" />
-        <input type="string" placeholder="E-mail" />
-        <input type="tel" placeholder="Celular" />
-        <input type="password" placeholder="Senha" />
+        <TextBox type="string" placeholder="Nome Completo">
+          <FaUserAlt />
+        </TextBox>
+        <TextBox type="string" placeholder="E-mail">
+          <MdEmail />
+        </TextBox>
+        <TextBox type="string" placeholder="Celular">
+          <MdPhone />
+        </TextBox>
+        <TextBox type="password" placeholder="Senha">
+          <RiLockFill />
+        </TextBox>
         <Button type="submit">CRIAR MINHA CONTA GRÁTIS</Button>
       </FormContainer>
       <p className="term">
