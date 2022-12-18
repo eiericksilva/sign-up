@@ -38,15 +38,3 @@ export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
 `;
-export const Button = styled.button`
-  width: 100%;
-  height: 29px;
-  border-radius: 1.5rem;
-  border: none;
-  margin-top: 15px;
-  font-size: 16px;
-  font-weight: 400;
-  background-color: #e4105d;
-  color: #ffffff;
-  cursor: pointer;
-`;

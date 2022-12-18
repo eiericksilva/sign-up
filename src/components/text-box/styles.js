@@ -28,5 +28,11 @@ export const WrapperIcon = styled.span`
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -8px;
+  margin-top: -10px;
+
+  svg {
+    color: #8647ad;
+    width: 16px;
+    height: 16px;
+  }
 `;

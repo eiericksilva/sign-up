@@ -1,8 +1,10 @@
 import React from "react";
 import { Divider } from "../main/styles";
-import { Button, FormContainer } from "./styles";
+import { FormContainer } from "./styles";
 import { Wrapper } from "./styles";
+import Button from "../button";
 
+/* Icons */
 import { FaUserAlt } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
 import { RiLockFill } from "react-icons/ri";
