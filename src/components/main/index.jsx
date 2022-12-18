@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "../form";
 import { Container, Aside, Content, Divider } from "./styles";
 
 const Main = () => {
@@ -12,7 +13,7 @@ const Main = () => {
         </h1>
         <a href="#">VOLTAR PARA LOGIN</a>
       </Aside>
-      <div className="right"></div>
+      <Form />
     </Container>
   );
 };

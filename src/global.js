@@ -6,11 +6,12 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         font-family: 'Open Sans', sans-serif;
+        overflow: hidden;
     }
 
     body {
         background-color: #1E192C;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         color: #ffffff;
     }

@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  width: 100%;
+  width: 100vw;
   height: 100%;
   margin: 60px 0 0 330px;
+  display: flex;
+  gap: 15%;
 `;
 
 export const Aside = styled.aside`
